@@ -6,7 +6,7 @@
 1. Install Git and Git LFS, then run `git lfs install`
 2. Clone the repo
 3. Run `git config core.autocrlf input`
-4. Open the folder in Unity Hub with the version above
+4. Add project from disk in Unity Hub with the version above
 5. Wait for the first import to finish
 
 ## Workflow
