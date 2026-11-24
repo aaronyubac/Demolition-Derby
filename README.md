@@ -1,5 +1,15 @@
 # Demolition Derby
 
+# Group Members: Aaron Yubac, Luis Torres, Henry Parubrub
+
+# Description of Current Target for the Game: We want to create a first-person demolition derby type game that will have the player go against other bots in different vehicles. The goal of the game is to wreck the other cars before your own car gets wrecked, the last one vehicle to survive wins the game. 
+
+# General Goals: 
+Henry: Creating the vehicles and setting up vehicle behaviors. 
+Aaron: Setting up the arena and creating the bots to go against and their behaviors.
+Luis: Implementing audio and visual assets. 
+UI will be split between the three of us. 
+
 **Unity version:** 6000.6.7f1 (see ProjectSettings/ProjectVersion.txt)
 
 ## Setup
