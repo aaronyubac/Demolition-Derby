@@ -11,6 +11,8 @@ Aaron: Setting up the arena and creating the bots to go against and their behavi
 Luis: Implementing audio and visual assets. 
 UI will be split between the three of us. 
 
+[![Halfway Project Demo](https://drive.google.com/file/d/1-Nvfprfl7jTTDa1X_bB1-O2yS6iGm7G4/view?usp=sharing)
+
 **Unity version:** 6000.6.7f1 (see ProjectSettings/ProjectVersion.txt)
 
 ## Setup
