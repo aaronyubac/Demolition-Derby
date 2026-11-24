@@ -843,6 +843,8 @@ GameObject:
   - component: {fileID: 980720927722024161}
   - component: {fileID: 6309221485066381056}
   - component: {fileID: 1282629436037120007}
+  - component: {fileID: -805498565748865852}
+  - component: {fileID: -7617716761440575021}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -939,6 +941,42 @@ MonoBehaviour:
   tiltDamping: 3
   airborneMultiplier: 0.3
   wheels: []
+--- !u!114 &-805498565748865852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804533987727293899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f037e55fca3c5634f842ac1cf2da2b4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
+  currentHealth: 0
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-7617716761440575021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6804533987727293899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec07f14befe32642a0468b92fc65501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VehicleCollisionDamage
+  minImpactSpeed: 4
+  damageMultiplier: 3
+  hitCooldown: 0.1
+  logHits: 1
 --- !u!1 &6926053364548891266
 GameObject:
   m_ObjectHideFlags: 0
